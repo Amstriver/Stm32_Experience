@@ -6,8 +6,9 @@
 #Date:2024.6.15
 #OLED代码移植
 #Describe:
-1、首先在CubeMX中配置相应的引脚，VCC-3.3V，GND，SCL、SDA、RST(RES)、DC
+1、首先在CubeMX中配置相应的引脚，VCC-3.3V，GND，SCL、SDA、RST(RES)、DC。后面四个均设置为Low、Output push-pull、No pull-up and pull-down、Low。
 2、生成代码，下载打开文件OLED，将对应的代码Copy到相应的文件夹内。（.h文件放在./Core/Inc;.c文件放在./Core/Src）
+3、接着编译、下载就搞定了
 
 #Date:2024.6.18
 #MPU6050代码移植(具体代码见MPU6050)
